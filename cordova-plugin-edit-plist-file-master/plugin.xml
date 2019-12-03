@@ -44,6 +44,10 @@
             </array>
         </config-file>
         
+        <config-file parent="NSCameraUsageDescription" target="*-Info.plist">
+            <string>We are using a camera to take your self-potrait and use it as profile picture.</string>
+        </config-file>
+        
         
         
     </platform>
